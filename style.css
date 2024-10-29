@@ -1,0 +1,105 @@
+/* Основные стили */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Заголовок */
+h1 {
+  font-size: 2.8em;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Навигационная панель */
+.navbar-default {
+  background-color: #3498db;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 1.8em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+/* Мобильное меню */
+.navbar-collapse ul {
+  background-color: #3498db;
+}
+
+.navbar-collapse ul li a {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* Блоки меню */
+.menu-item {
+  padding: 25px;
+  margin: 20px 10px;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1em;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Градиенты для разных блюд */
+.menu-item.pasta {
+  background: linear-gradient(135deg, #ff6b6b, #f7b733);
+}
+
+.menu-item.burger {
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+}
+
+.menu-item.dessert {
+  background: linear-gradient(135deg, #8e44ad, #c39bd3);
+}
+
+/* Анимация при наведении */
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.menu-item p {
+  font-size: 1em;
+  margin-top: 10px;
+  line-height: 1.6em;
+  opacity: 0.9;
+}
+
+/* Фон страницы */
+body {
+  background: linear-gradient(to bottom, #ffffff, #e1eec3);
+}
+
+/* Мобильные настройки */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food, LLC</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+      <div class="collapse navbar-collapse" id="collapsable-nav">
+        <!-- Only visible on mobile (xs) -->
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#pasta">Pasta</a></li>
+          <li><a href="#burger">Burger</a></li>
+          <li><a href="#dessert">Dessert</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Heading -->
+  <div class="container text-center">
+    <h1>Our Menu</h1>
+  </div>
+
+  <!-- Menu Section -->
+  <div class="container-fluid">
+    <div class="row">
+      <div id="pasta" class="col-xs-12 col-md-4">
+        <div class="menu-item pasta">
+          <h2>Gourmet Pasta</h2>
+          <p>Freshly made pasta tossed in a rich and creamy sauce, garnished with herbs and Parmesan.</p>
+        </div>
+      </div>
+      <div id="burger" class="col-xs-12 col-md-4">
+        <div class="menu-item burger">
+          <h2>Classic Burger</h2>
+          <p>A juicy beef patty with melted cheese, crispy lettuce, tomatoes, and our special sauce.</p>
+        </div>
+      </div>
+      <div id="dessert" class="col-xs-12 col-md-4">
+        <div class="menu-item dessert">
+          <h2>Chocolate Lava Cake</h2>
+          <p>Warm, rich chocolate cake with a gooey center, served with vanilla ice cream.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
